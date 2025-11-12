@@ -50,6 +50,7 @@ table {
   background-color: #60fbbf;
 }
 
+
 .pagination {
   display: flex;
   justify-content: space-around;
@@ -73,9 +74,29 @@ table {
 }
 
 ul {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
   padding-top: 100px;
   list-style: none;
 }
+p {
+  
+  margin-left: 5px;
+}
+img {
+  width: 200px;
+  
+}
 
-
-
+.card {
+  width: 200px;
+  border: 2px solid grey;
+  height: 260px;
+  margin-top: 20px;
+}
+.negrita {
+  font-weight: bold;
+}
